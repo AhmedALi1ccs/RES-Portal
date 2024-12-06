@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide-static@0.321.0/dist/lucide-static.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto">
+        <!-- Navigation -->
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <h1 class="text-white text-2xl font-bold">Ahmed's Portfolio</h1>
+            </div>
+        </nav>
+
+        <!-- About Me Profile Container -->
+        <div id="aboutMeContainer" class="mt-8">
+            <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                <div class="bg-gradient-to-r from-blue-500 to-purple-600 h-24"></div>
+                
+                <div class="px-6 py-4 relative">
+                    <div class="flex items-center">
+                        <div class="w-24 h-24 bg-gray-200 rounded-full absolute -top-12 border-4 border-white">
+                            <img 
+                                src="Assets/images/IMG_3131.png" 
+                                alt="Profile" 
+                                class="w-full h-full rounded-full object-cover"
+                            />
+                        </div>
+                        
+                        <div class="ml-32 pt-4">
+                            <h1 class="text-2xl font-bold text-gray-800">Ahmed</h1>
+                            <p class="text-gray-600">Software Engineer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase mr-2 text-blue-500">
+                                    <rect width="20" height="14" x="2" y="7" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                                Work Experience
+                            </h2>
+                            <div class="space-y-4">
+                                <div>
+                                    <h3 class="font-medium">Central City Solutions</h3>
+                                    <p class="text-gray-600">Data Analyst</p>
+                                </div>
+                                <div>
+                                    <h3 class="font-medium">RES_VA</h3>
+                                    <p class="text-gray-600">Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h2 class="text-xl font-semibold mb-4 flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code mr-2 text-green-500">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                                Technologies
+                            </h2>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Python</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">JavaScript</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Ruby On Rails</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Data Science</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Postgres</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Google APIS</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Go lang</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Node.js</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Machine Learning</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Digital Ocean</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Matlab</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h2 class="text-xl font-semibold mb-4 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user mr-2 text-purple-500">
+                                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            About Me
+                        </h2>
+                        <p class="text-gray-700">
+                            Passionate software engineer with expertise in web development and cloud technologies. 
+                            Committed to building innovative solutions and continuously learning new technologies.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-8 border-t pt-4 text-center">
+                        <p class="text-gray-600">
+                            Want to connect? Reach out via professional networking platforms
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
